@@ -1,30 +1,16 @@
-Tema:
- - Grafos2
+# nuvem
 
-# A Mancha
+A new Flutter project.
 
-## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| 19/0125829 |  19/0125829  |
-| 19/0129221 |  Murilo Souto|
+## Getting Started
 
-## Sobre 
-Jogo desenvolvido para android e para web. A cada rodada, um grafo 3x3 é formado. Cada nó se conecta aos nós ao seu lado, acima e abaixo. Cada aresta tem um valor gerado aleatoriamente. O objetivo é sair do ponto inicial (nó verde) para o ponto final (nó vermelho) utilizando as arestas de menores valores.
+This project is a starting point for a Flutter application.
 
-## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+A few resources to get you started if this is your first Flutter project:
 
-## Instalação 
-**Linguagem**: dart, python<br>
-**Framework**: Flutter, Flask<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
-
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
-
-
-
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
