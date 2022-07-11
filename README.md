@@ -6,7 +6,7 @@ Tema:
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| 19/0125829 |  19/0125829  |
+| 19/0125829 |  Ian Costa  |
 | 19/0129221 |  Murilo Souto|
 
 ## Sobre 
@@ -16,12 +16,37 @@ Jogo desenvolvido para android e para web. A cada rodada, um grafo 3x3 é formad
 Adicione 3 ou mais screenshots do projeto em funcionamento.
 
 ## Instalação 
-**Linguagem**: dart, python<br>
+**Linguagem**: Dart, Python<br>
 **Framework**: Flutter, Flask<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+#### Método 1:
+Acesse: https://a-mancha.web.app/
+#### Método 2:
+Faça o download do apk disponibilizado.
+#### Método 3:
+Tenha o python e o flutter baixado em sua máquina. 
+
+Você precisará do python e do Flutter instalado.
+
+##### Abra o terminal
+ 
+- Baixe o projeto
+> $ git clone https://github.com/projeto-de-algoritmos/Grafos2_A-Mancha
+- Entre no diretório do projeto
+> $ cd Grafos2_A-Mancha
+- Acesse o diretório que contém o código do servidor
+> $ cd servidor_python
+- Baixe as bibliotecas necessárias
+> $ pip3 install requeriments.txt
+- Suba o servidor
+> $ gunicorn "app:criarApp()"
+- Volte para o diretório do projeto
+> $ cd ..
+- Acesse o diretório que contém o código do jogo
+> $ cd mancha-flutter
+- Rode o jogo
+> $ flutter run
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Após acessar o apk/site, escolha um nome de usuário e clique no botão jogar. Você começa no nó verde (não é necessário clicar nele) e termina no nó vermelho (ao final é necessário clicar nele). É necessário escolher o caminho que possui o menor valor ao total, para chegar na próxima rodada. <br>
+Dica: Para jogar pense como funciona o algoritmo de dijsktra
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
