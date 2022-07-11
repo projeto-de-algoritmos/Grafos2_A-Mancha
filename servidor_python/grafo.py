@@ -40,5 +40,13 @@ class Grafo():
         print(nx.dijkstra_path_length(self.grafo, source=valores[0], target=valores[1]))
         labels = nx.get_edge_attributes(self.grafo, 'weight')
         return valores, nx.dijkstra_path(self.grafo, source=valores[0], target=valores[1]), nx.dijkstra_path_length(self.grafo, source=valores[0], target=valores[1]), list(labels.values())
+    '''def mostra(self):
+        pos = nx.get_node_attributes(self.grafo , 'pos')
+        labels = nx.get_edge_attributes(self.grafo, 'weight')
+        print(list(labels.values()))
+
+        nx.draw_networkx_edge_labels(self.grafo, pos, edge_labels=labels)
+        nx.draw(self.grafo, pos, with_labels = True)
+        plt.show()'''
 
 
