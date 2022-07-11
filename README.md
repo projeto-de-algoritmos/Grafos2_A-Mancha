@@ -13,7 +13,16 @@ Tema:
 Jogo desenvolvido para android e para web. A cada rodada, um grafo 3x3 é formado. Cada nó se conecta aos nós ao seu lado, acima e abaixo. Cada aresta tem um valor gerado aleatoriamente. O objetivo é sair do ponto inicial (nó verde) para o ponto final (nó vermelho) utilizando as arestas de menores valores.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+<table>
+    <tr>
+        <td>Tela inicial</td><td>Jogo</td><td>Resultado</td>
+    </tr>
+    <tr>
+        <td><img src="/print1.jpeg" width="200"></td><td><img src="/print2.jpeg" width="200"></td><td><img src="/print3.jpeg" width="200"></td>
+    </tr>
+</table>
+
 
 ## Instalação 
 **Linguagem**: Dart, Python<br>
