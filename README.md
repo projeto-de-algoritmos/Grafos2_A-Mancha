@@ -32,6 +32,8 @@ Acesse: https://a-mancha.web.app/
 #### Método 2:
 Faça o download do apk disponibilizado.
 #### Método 3:
+Acesse: https://play.google.com/store/apps/details?id=com.mpbstecnologia.nuvem (se a playstore aceitar).
+#### Método 4:
 Tenha o python e o flutter baixado em sua máquina. 
 
 Você precisará do python e do Flutter instalado.
@@ -57,5 +59,5 @@ Você precisará do python e do Flutter instalado.
 
 ## Uso 
 Após acessar o apk/site, escolha um nome de usuário e clique no botão jogar. Você começa no nó verde (não é necessário clicar nele) e termina no nó vermelho (ao final é necessário clicar nele). É necessário escolher o caminho que possui o menor valor ao total, para chegar na próxima rodada. <br>
-Dica: Para jogar pense como funciona o algoritmo de dijsktra
+Dica: Para jogar pense como funciona o algoritmo de dijsktra.
 
